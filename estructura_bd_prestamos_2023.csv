@@ -1,0 +1,35 @@
+nro_campo;nombre_campo;tipo_campo;descripción;valores codificados
+1;id_prestamo;numérico;identificador único de prestamo;-
+1;id_usuario;numérico;identificador único del usuario;-
+2;nro_inventario;numérico;identificador único de libro;-
+3;isbn;caracter;Código Internacional Normalizado;Valores del registro de la Agencia Argentina de ISBN
+4;titulo;caracter;título de la obra;-
+5;autor;caracter;autor de la obra;-
+6;series;caracter;series de la obra;-
+7;editor_sede;caracter;sede de la editorial de la obra;-
+8;editor_nombre;caracter;nombre de la editorial de la obra;-
+9;año_publicación;numérico;año de publicación de la obra;-
+10;ed_nro;numérico;numero de edicion del ejemplar;-
+11;cant_pag;numérico;cantidad de paginas del ejemplar;Acepta 99999: Desconocido
+12;men_200;numérico;¿el libro posee menos de 200 paginas?;0: no
+;;;;1: si
+13;tamaño;numérico;altura del libro (medida en centímetros);-
+14;dem_proveedor;numérico;demora del proveedor para la entrega del libro desde la solitud (en dias);-
+15;categoria;caracter;categoria de la obra;-
+16;dim_tematica;caracter;dimensiones tematicas de la obra;-
+17;antig_obra;numérico;antigüedad de la obra en años;-
+18;ant_1980;numérico;año de edicion previo a 1980;0: no
+;;;;1: si
+19;idioma;numérico;idioma de la obra;1: español
+;;;;2:inglés
+20;tipo_usuario;numérico;tipo usuario que recibe en prestamo;1: alumno
+;;;;2: docente
+;;;;3: no docente
+21;num_operador;numérico;numero de operador que adjudica el prestamo;1: Miguel
+;;;;2: Cristina
+;;;;3: Marina
+;;;;4: Ivan
+;;;;5: Pablo
+22;prest_año_ant;numérico;cantidad de prestamos en el año previo asociados al ejemplar;-
+23;dias_prest;numérico;tiempo transcurrido entre el prestamo y la devolucion (en dias);-
+24;fecha_actualiz;fecha;fecha de actualizacion de los datos;aaaa-mm-dd
